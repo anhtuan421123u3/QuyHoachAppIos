@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_postman_id": "quyhoach-ios-api-collection-2026",
+    "name": "Quy Hoach GIS API (iOS & Web Tiles)",
+    "description": "Bộ sưu tập kiểm thử API Tra cứu Quy hoạch Đất đai 63 Tỉnh Thành (Guland Model) phục vụ iOS Native App",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Lấy danh sách 63 Tỉnh Thành",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/provinces",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "provinces"]
+        }
+      }
+    },
+    {
+      "name": "2. Lấy Tile Quy hoạch Hà Nội (Z/X/Y)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://tile.quyhoach.gov.vn/hanoi/12/3252/1793.png",
+          "protocol": "https",
+          "host": ["tile", "quyhoach", "gov", "vn"],
+          "path": ["hanoi", "12", "3252", "1793.png"]
+        }
+      }
+    },
+    {
+      "name": "3. Lấy Tile Quy hoạch TP. Hồ Chí Minh",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://tile.quyhoach.gov.vn/hcm/12/3257/2026.png",
+          "protocol": "https",
+          "host": ["tile", "quyhoach", "gov", "vn"],
+          "path": ["hcm", "12", "3257", "2026.png"]
+        }
+      }
+    },
+    {
+      "name": "4. Tra cứu Thửa đất theo Số tờ & Số thửa",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"provinceId\": \"hanoi\",\n  \"sheetNumber\": \"18\",\n  \"plotNumber\": \"45\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/parcels/lookup",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "parcels", "lookup"]
+        }
+      }
+    }
+  ]
+}
