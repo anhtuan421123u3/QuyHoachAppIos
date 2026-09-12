@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1000012C88000100000001 /* QuyHoachIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000022C88000100000001 /* QuyHoachIosApp.swift */; };
+		AA1000032C88000100000001 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000042C88000100000001 /* Province.swift */; };
+		AA1000052C88000100000001 /* LandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000062C88000100000001 /* LandType.swift */; };
+		AA1000072C88000100000001 /* Parcel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000082C88000100000001 /* Parcel.swift */; };
+		AA1000092C88000100000001 /* ProvinceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000102C88000100000001 /* ProvinceRepository.swift */; };
+		AA1000112C88000100000001 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000122C88000100000001 /* MapViewModel.swift */; };
+		AA1000132C88000100000001 /* PlanningMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000142C88000100000001 /* PlanningMapView.swift */; };
+		AA1000152C88000100000001 /* ProvincePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000162C88000100000001 /* ProvincePickerSheet.swift */; };
+		AA1000172C88000100000001 /* LegendSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000182C88000100000001 /* LegendSheet.swift */; };
+		AA1000192C88000100000001 /* ParcelDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000202C88000100000001 /* ParcelDetailSheet.swift */; };
+		AA1000212C88000100000001 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000222C88000100000001 /* HomeScreen.swift */; };
+		AA1000232C88000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1000242C88000100000001 /* Assets.xcassets */; };
+		AA1000472C88000100000001 /* VN2000Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000482C88000100000001 /* VN2000Point.swift */; };
+		AA1000492C88000100000001 /* VN2000Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000502C88000100000001 /* VN2000Converter.swift */; };
+		AA1000512C88000100000001 /* VN2000ConverterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000522C88000100000001 /* VN2000ConverterSheet.swift */; };
+		AA1000532C88000100000001 /* BookmarksSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000542C88000100000001 /* BookmarksSheet.swift */; };
+		AA1000552C88000100000001 /* BaseMapPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000562C88000100000001 /* BaseMapPickerSheet.swift */; };
+		AA1000602C88000100000001 /* GulandPlanningCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000612C88000100000001 /* GulandPlanningCatalog.swift */; };
+		AA1000622C88000100000001 /* GulandPlanningLayerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000632C88000100000001 /* GulandPlanningLayerRepository.swift */; };
+		AA2000012C88000100000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2000022C88000100000001 /* Theme.swift */; };
+		AA2000032C88000100000001 /* LayerControlDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2000042C88000100000001 /* LayerControlDrawer.swift */; };
+		AA2000052C88000100000001 /* LocationInfoPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2000062C88000100000001 /* LocationInfoPopup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1000022C88000100000001 /* QuyHoachIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuyHoachIosApp.swift; sourceTree = "<group>"; };
+		AA1000042C88000100000001 /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+		AA1000062C88000100000001 /* LandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandType.swift; sourceTree = "<group>"; };
+		AA1000082C88000100000001 /* Parcel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parcel.swift; sourceTree = "<group>"; };
+		AA1000102C88000100000001 /* ProvinceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceRepository.swift; sourceTree = "<group>"; };
+		AA1000122C88000100000001 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		AA1000142C88000100000001 /* PlanningMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningMapView.swift; sourceTree = "<group>"; };
+		AA1000162C88000100000001 /* ProvincePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvincePickerSheet.swift; sourceTree = "<group>"; };
+		AA1000182C88000100000001 /* LegendSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendSheet.swift; sourceTree = "<group>"; };
+		AA1000202C88000100000001 /* ParcelDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelDetailSheet.swift; sourceTree = "<group>"; };
+		AA1000222C88000100000001 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AA1000242C88000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1000252C88000100000001 /* QuyHoachIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuyHoachIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1000262C88000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1000482C88000100000001 /* VN2000Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VN2000Point.swift; sourceTree = "<group>"; };
+		AA1000502C88000100000001 /* VN2000Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VN2000Converter.swift; sourceTree = "<group>"; };
+		AA1000522C88000100000001 /* VN2000ConverterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VN2000ConverterSheet.swift; sourceTree = "<group>"; };
+		AA1000542C88000100000001 /* BookmarksSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksSheet.swift; sourceTree = "<group>"; };
+		AA1000562C88000100000001 /* BaseMapPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMapPickerSheet.swift; sourceTree = "<group>"; };
+		AA1000612C88000100000001 /* GulandPlanningCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulandPlanningCatalog.swift; sourceTree = "<group>"; };
+		AA1000632C88000100000001 /* GulandPlanningLayerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulandPlanningLayerRepository.swift; sourceTree = "<group>"; };
+		AA2000022C88000100000001 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AA2000042C88000100000001 /* LayerControlDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerControlDrawer.swift; sourceTree = "<group>"; };
+		AA2000062C88000100000001 /* LocationInfoPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoPopup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1000272C88000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1000282C88000100000001 = {
+			isa = PBXGroup;
+			children = (
+				AA1000292C88000100000001 /* QuyHoachIos */,
+				AA1000302C88000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1000292C88000100000001 /* QuyHoachIos */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000312C88000100000001 /* App */,
+				AA1000322C88000100000001 /* Models */,
+				AA1000332C88000100000001 /* Data */,
+				AA1000342C88000100000001 /* ViewModels */,
+				AA1000352C88000100000001 /* Views */,
+				AA1000362C88000100000001 /* Resources */,
+			);
+			path = QuyHoachIos;
+			sourceTree = "<group>";
+		};
+		AA1000302C88000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000252C88000100000001 /* QuyHoachIos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1000312C88000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000022C88000100000001 /* QuyHoachIosApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA1000322C88000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000042C88000100000001 /* Province.swift */,
+				AA1000062C88000100000001 /* LandType.swift */,
+				AA1000082C88000100000001 /* Parcel.swift */,
+				AA1000482C88000100000001 /* VN2000Point.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1000332C88000100000001 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000102C88000100000001 /* ProvinceRepository.swift */,
+				AA1000502C88000100000001 /* VN2000Converter.swift */,
+				AA1000612C88000100000001 /* GulandPlanningCatalog.swift */,
+				AA1000632C88000100000001 /* GulandPlanningLayerRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AA1000342C88000100000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000122C88000100000001 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA1000352C88000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000142C88000100000001 /* PlanningMapView.swift */,
+				AA1000162C88000100000001 /* ProvincePickerSheet.swift */,
+				AA1000182C88000100000001 /* LegendSheet.swift */,
+				AA1000202C88000100000001 /* ParcelDetailSheet.swift */,
+				AA1000522C88000100000001 /* VN2000ConverterSheet.swift */,
+				AA1000542C88000100000001 /* BookmarksSheet.swift */,
+				AA1000562C88000100000001 /* BaseMapPickerSheet.swift */,
+				AA1000222C88000100000001 /* HomeScreen.swift */,
+				AA2000042C88000100000001 /* LayerControlDrawer.swift */,
+				AA2000062C88000100000001 /* LocationInfoPopup.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1000362C88000100000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA2000022C88000100000001 /* Theme.swift */,
+				AA1000242C88000100000001 /* Assets.xcassets */,
+				AA1000262C88000100000001 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1000372C88000100000001 /* QuyHoachIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1000382C88000100000001 /* Build configuration list for PBXNativeTarget "QuyHoachIos" */;
+			buildPhases = (
+				AA1000392C88000100000001 /* Sources */,
+				AA1000272C88000100000001 /* Frameworks */,
+				AA1000402C88000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuyHoachIos;
+			productName = QuyHoachIos;
+			productReference = AA1000252C88000100000001 /* QuyHoachIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1000412C88000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA1000372C88000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA1000422C88000100000001 /* Build configuration list for PBXProject "QuyHoachIos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = vi;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				vi,
+				Base,
+			);
+			mainGroup = AA1000282C88000100000001;
+			productRefGroup = AA1000302C88000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1000372C88000100000001 /* QuyHoachIos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1000402C88000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1000232C88000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1000392C88000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1000012C88000100000001 /* QuyHoachIosApp.swift in Sources */,
+				AA1000032C88000100000001 /* Province.swift in Sources */,
+				AA1000052C88000100000001 /* LandType.swift in Sources */,
+				AA1000072C88000100000001 /* Parcel.swift in Sources */,
+				AA1000472C88000100000001 /* VN2000Point.swift in Sources */,
+				AA1000092C88000100000001 /* ProvinceRepository.swift in Sources */,
+				AA1000492C88000100000001 /* VN2000Converter.swift in Sources */,
+				AA1000602C88000100000001 /* GulandPlanningCatalog.swift in Sources */,
+				AA1000622C88000100000001 /* GulandPlanningLayerRepository.swift in Sources */,
+				AA1000112C88000100000001 /* MapViewModel.swift in Sources */,
+				AA1000132C88000100000001 /* PlanningMapView.swift in Sources */,
+				AA1000152C88000100000001 /* ProvincePickerSheet.swift in Sources */,
+				AA1000172C88000100000001 /* LegendSheet.swift in Sources */,
+				AA1000192C88000100000001 /* ParcelDetailSheet.swift in Sources */,
+				AA1000512C88000100000001 /* VN2000ConverterSheet.swift in Sources */,
+				AA1000532C88000100000001 /* BookmarksSheet.swift in Sources */,
+				AA1000552C88000100000001 /* BaseMapPickerSheet.swift in Sources */,
+				AA1000212C88000100000001 /* HomeScreen.swift in Sources */,
+				AA2000012C88000100000001 /* Theme.swift in Sources */,
+				AA2000032C88000100000001 /* LayerControlDrawer.swift in Sources */,
+				AA2000052C88000100000001 /* LocationInfoPopup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1000432C88000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA1000442C88000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1000452C88000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = CY498L6JFA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QuyHoachIos/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quyhoach.app.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1000462C88000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = CY498L6JFA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QuyHoachIos/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quyhoach.app.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1000382C88000100000001 /* Build configuration list for PBXNativeTarget "QuyHoachIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000452C88000100000001 /* Debug */,
+				AA1000462C88000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1000422C88000100000001 /* Build configuration list for PBXProject "QuyHoachIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000432C88000100000001 /* Debug */,
+				AA1000442C88000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1000412C88000100000001 /* Project object */;
+}
